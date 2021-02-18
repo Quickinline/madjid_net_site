@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  frontend:
+    image: node:12.19.0-alpine
+    container_name: madjid_net_site
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+    
+    working_dir: /app
+
+    command: yarn dev
