@@ -13,9 +13,11 @@
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "core-js": "^3.8.3",
+    "holderjs": "^2.9.9",
     "hover.css": "^2.3.2",
     "nuxt": "^2.14.12",
     "tailwind-config-viewer": "^1.5.0",
+    "vue-holderjs": "^1.0.2",
     "vue-navigation-bar": "^4.1.0"
   },
   "devDependencies": {

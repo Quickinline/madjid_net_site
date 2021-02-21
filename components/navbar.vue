@@ -17,7 +17,7 @@
                   v-for="nav in navs"
                   :key="nav.text"
                   :to="nav.to"
-                  class="text-gray-600 hvr-underline-from-center hover:text-black mx-4 py-0 text-sm font-medium"
+                  class="text-gray-600 hvr-underline-from-center hover:text-madjid-blue mx-4 py-0 text-sm font-medium"
                   v-text="nav.text"
                 />
               </div>
@@ -137,7 +137,7 @@ export default {
         },
         {
           text: 'Nos services et préstations',
-          to: '/hello'
+          to: '#services'
         },
         {
           text: 'Contact',

@@ -5,6 +5,10 @@
     </div> -->
     <carousel />
     <services />
+    <feature-two class="my-4 md:my-8" />
+    <feature class="my-4 md:my-8" />
+    <contact-us />
+    <about />
   </main>
 </template>
 
@@ -12,11 +16,19 @@
 import carousel from '~/components/carousel.vue'
 // import logo from '~/components/Logo'
 import services from '~/components/services'
+import feature from '~/components/feature'
+import featureTwo from '~/components/feature-two'
+import contactUs from '~/components/contact-us.vue'
+import about from '~/components/about.vue'
 export default {
   components: {
     carousel,
     // logo,
-    services
+    services,
+    feature,
+    featureTwo,
+    contactUs,
+    about
   },
   layout: 'external'
 

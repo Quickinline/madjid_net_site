@@ -22,7 +22,10 @@ module.exports = {
         'madjid-blue-darker': '#141b39'
       },
       spacing: {
-        72: '18rem'
+        72: '18rem',
+        80: '20rem',
+        96: '24rem',
+        128: '32rem'
       }
     },
     container: {
