@@ -23,12 +23,12 @@
               </div>
             </div>
             <div class="flex flex-row mx-4">
-              <a href="#" class="mx-2">
+              <a class="mx-2" @click="newTab()">
                 <facebook class="w-5 hover:w-6" />
               </a>
-              <a href="#">
+              <!-- <a href="#">
                 <instagram class="w-5" />
-              </a>
+              </a> -->
             </div>
             <basic-button text="Contactez nous" />
           </div>
@@ -150,6 +150,10 @@ export default {
   methods: {
     triggerMenu () {
       this.menu = !this.menu
+    },
+    newTab () {
+      const vm = this
+      window.open(vm.$globalVars().facebookPage, '_blank')
     }
   }
 }

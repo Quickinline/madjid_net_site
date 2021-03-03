@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors: {
         'madjid-blue-light': '#194092',
+        'madjid-blue-link': '#8eabec',
         'madjid-blue': '#25336C',
         'madjid-blue-darker': '#141b39'
       },

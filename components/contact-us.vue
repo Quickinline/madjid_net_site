@@ -1,5 +1,5 @@
 <template>
-  <section style="background: #223974">
+  <section id="contactus" style="background: #223974">
     <div class="container py-8">
       <h2 class="text-4xl text-white text-center">
         Contactez Nous
@@ -40,9 +40,9 @@ export default {
     return {
       contactInfo: {
         Email: vm.$globalVars().email,
-        Tél: vm.$globalVars().phone,
-        addresse: vm.$globalVars().address,
-        horaires: vm.$globalVars().hours
+        Tél: vm.$globalVars().phone
+        // addresse: vm.$globalVars().address,
+        // horaires: vm.$globalVars().hours
       }
     }
   }
