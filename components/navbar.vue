@@ -141,7 +141,7 @@ export default {
         },
         {
           text: 'Contact',
-          to: '/feftg'
+          to: '#contactus'
         }
       ],
       menu: false

@@ -9,17 +9,26 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'madjid_net',
+    title: 'Madjid Net',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Vôtre solution pour le nettoyage, À votre service pour des entretiens périodiques et ponctuels de tout vos locaux' },
+
+      // facebook
+      { property: 'og:title', content: 'Madjid Net' },
+      { property: 'og:description', content: 'Vôtre solution pour le nettoyage, À votre service pour des entretiens périodiques et ponctuels de tout vos locaux' },
+      { property: 'og:image', content: 'http://madjid-algerie.com/madjid-net.png' },
+      { property: 'og:image:secure_url', content: 'https://madjid-algerie.com/madjid-net.png' },
+      { property: 'og:locale', content: 'fr' },
+      { property: 'og:type', content: 'website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'canonical', href: 'https://madjid-algerie.com' }
     ]
   },
 
@@ -30,7 +39,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/globalVars.js',
-    '~/plugins/holder.js'
+    // '~/plugins/holder.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

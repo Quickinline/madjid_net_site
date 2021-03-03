@@ -39,7 +39,8 @@ export default {
     const vm = this
     return {
       contactInfo: {
-        Email: vm.$globalVars().email,
+        Contact: vm.$globalVars().email,
+        Commerciale: vm.$globalVars().commercial,
         Tél: vm.$globalVars().phone
         // addresse: vm.$globalVars().address,
         // horaires: vm.$globalVars().hours
