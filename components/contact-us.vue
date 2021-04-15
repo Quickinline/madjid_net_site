@@ -40,7 +40,7 @@ export default {
     return {
       contactInfo: {
         Contact: vm.$globalVars().email,
-        Commerciale: vm.$globalVars().commercial,
+        Commercial: vm.$globalVars().commercial,
         Tél: vm.$globalVars().phone
         // addresse: vm.$globalVars().address,
         // horaires: vm.$globalVars().hours
