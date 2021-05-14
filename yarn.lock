@@ -5097,6 +5097,11 @@ jquery@^3.2.1:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
 
+jquery@^3.3.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -5317,6 +5322,11 @@ load-json-file@^2.0.0:
     parse-json "^2.2.0"
     pify "^2.0.0"
     strip-bom "^3.0.0"
+
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
 
 loader-runner@^2.3.1, loader-runner@^2.4.0:
   version "2.4.0"
@@ -8820,6 +8830,13 @@ vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.4.1:
     espree "^6.2.1"
     esquery "^1.0.1"
     lodash "^4.17.15"
+
+vue-facebook-page@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-facebook-page/-/vue-facebook-page-1.0.1.tgz#384abb057720780f700168c6ca64834049424a39"
+  integrity sha512-QSegYTPL0NsDmAlNzuhO7suBb1V5qLCgvW72j/AvVY7S1AODu7AOUbtiob6RGzkQTRqyRC0QVknNU3P9l/eAEQ==
+  dependencies:
+    jquery "^3.3.1"
 
 vue-holderjs@^1.0.2:
   version "1.0.2"
